@@ -13,13 +13,13 @@ export default function Dashboard() {
   console.log(image);
   let { id } = useParams();
 
-  let baseUrl = "http://localhost:5000/newcars";
-  let baseUrl1 = "http://localhost:5000/usedcars";
-  let baseUrl2 = "http://localhost:5000/maintains";
-  let baseUrl3 = "http://localhost:5000/schools";
-  let baseUrl4 = "http://localhost:5000/accessories";
-  let baseUrl5 = "http://localhost:5000/useddcars";
-  let baseUrl6 = "http://localhost:5000/newwcars";
+  let baseUrl = "https://hesham-backend.onrender.com/newcars";
+  let baseUrl1 = "https://hesham-backend.onrender.com/usedcars";
+  let baseUrl2 = "https://hesham-backend.onrender.com/maintains";
+  let baseUrl3 = "https://hesham-backend.onrender.com/schools";
+  let baseUrl4 = "https://hesham-backend.onrender.com/accessories";
+  let baseUrl5 = "https://hesham-backend.onrender.com/useddcars";
+  let baseUrl6 = "https://hesham-backend.onrender.com/newwcars";
   let navigate = useNavigate();
   let formData = new FormData();
   const [formValue, setFormValue] = useState({
