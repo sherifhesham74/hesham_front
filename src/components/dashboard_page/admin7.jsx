@@ -123,7 +123,7 @@ export function Admin7() {
                       <tr class="center-align car-row">
                         <td className="table-info">
                           {/* <img src={`${car.image[0]}`} /> */}
-                          <button className="mo"  onClick={() => window.open(`${car.image}`)}> Download </button>
+                            <a className="mo" href={car.image} target={"_blank"}  > Download  </a>
                         </td>
                         <td className="table-info text-center">
                           <strong className="car-var"> {car.price} </strong>
