@@ -27,9 +27,9 @@ const Navs = () => {
           <Navbar.Brand href="#home" className="logoo">
             {" "}       
             <div class="loader">
-            <img src="./logoo.png" class="car"
-                width="102"
-                height="40"/>
+//             <img src="./logoo.png" class="car"
+//                 width="102"
+//                 height="40"/>
               <span className="name p-2 logo-name">  هشام سلطان | المحامي بالنقض</span>
 
             </div>
