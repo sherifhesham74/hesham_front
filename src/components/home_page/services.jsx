@@ -43,7 +43,7 @@ export default function Servives() {
           </div> */}
           <div className="box col-lg-4 mx-2">
           <h4 className="service-sections">مصر الرقمية</h4>
-          <img src="https://digital.gov.eg/images/svg/New%20DE.svg"  width={"250px"} height={"120px"}/>           
+//           <img src="https://digital.gov.eg/images/svg/New%20DE.svg"  width={"250px"} height={"120px"}/>           
             <button className="button-5">
               <Link className="nav-link" to="https://digital.gov.eg/" target={"_blank"}>
                 بوابة مصر الرقمية
@@ -53,7 +53,7 @@ export default function Servives() {
           <div className="box col-lg-4 mx-2">
             
             <h4 className="service-sections">محكمة النقض</h4>
-            <img src="https://www.cc.gov.eg/img/logo.png" />
+//             <img src="https://www.cc.gov.eg/img/logo.png" />
             <button className="button-5">
               <Link className="nav-link" to="https://www.cc.gov.eg/" target={"_blank"}>
                صفحة محكمة النقض
